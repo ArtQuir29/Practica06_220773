@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Implementacio de datos de la sesión en una base de datos NoRelacional",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
   },
   "author": "Ailton Artiaga Quiroga - 220773",
   "license": "ISC",

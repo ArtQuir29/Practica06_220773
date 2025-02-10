@@ -4,7 +4,7 @@ import session from 'express-session';
 import os from 'os';
 import moment from 'moment-timezone';
 import { v4 as uuidv4 } from 'uuid';
-import Session from './src/models/Session.js';
+import Session from './models.js';
 import connectDB from './db.js';
 
 const app = express();
